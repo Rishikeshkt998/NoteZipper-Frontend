@@ -7,6 +7,7 @@ import UserLoggedOut from './components/userloggedout/UserLoggedOut';
 import UserLoggedIn from './components/userloggedin/UserLoggedIn';
 import Loading from './components/Loading/Loading';
 
+
 const LoginPage = lazy(() => import('./components/LoginPage/LoginPage'));
 const RegisterPage = lazy(() => import('./components/RegisterPage/RegisterPage'));
 const MyNotes = lazy(() => import('./components/MyNotes/MyNotes'));
